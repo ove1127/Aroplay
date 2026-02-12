@@ -767,7 +767,7 @@
         <div class="container">
             <nav>
                 <div class="logo">
-                    <img src="images/aroplay-logo.png" alt="Aroplay Gaming Cafe - Live in your World, Play in ours">
+                    <img src="aroplay-logo.png" alt="Aroplay Gaming Cafe - Live in your World, Play in ours">
                 </div>
                 <ul class="nav-links">
                     <li><a href="#features">Features</a></li>
