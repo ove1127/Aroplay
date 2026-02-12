@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Aroplay Gaming Cafe | Best Gaming Zone in Ashok Vihar Delhi | PS5, Xbox, Gaming PC</title>
+    <meta name="description" content="Live in your World, Play in ours - Aroplay Gaming Cafe in Ashok Vihar, Delhi. Premium PS5, Xbox Series X, RTX 4090 gaming PCs. Book your session now!">
+    <meta name="keywords" content="gaming cafe Ashok Vihar, gaming zone Delhi, PS5 gaming Delhi, Xbox gaming center, gaming PC cafe Delhi, esports cafe Ashok Vihar, gaming lounge Delhi, Aroplay gaming, best gaming cafe Delhi, RTX gaming, gaming cafe near me, PC gaming cafe, console gaming Delhi, gaming party Delhi, gaming cafe with AC, North Delhi gaming, gaming cafe booking, affordable gaming cafe Delhi">
+    <meta name="author" content="Aroplay Gaming Cafe">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aroplay.in/">
+    <meta property="og:title" content="Aroplay Gaming Cafe | Premium Gaming Zone in Ashok Vihar Delhi">
+    <meta property="og:description" content="Live in your World, Play in ours. Premium gaming experience with PS5, Xbox Series X, RTX 4090 PCs in Ashok Vihar, Delhi">
+    <meta property="og:image" content="https://aroplay.in/aroplay-logo.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aroplay.in/">
+    <meta property="twitter:title" content="Aroplay Gaming Cafe | Best Gaming Zone in Ashok Vihar Delhi">
+    <meta property="twitter:description" content="Live in your World, Play in ours. Premium gaming with PS5, Xbox, RTX 4090 PCs!">
+    <meta property="twitter:image" content="https://aroplay.in/aroplay-logo.png">
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Aroplay Gaming Cafe",
+      "image": "https://aroplay.in/aroplay-logo.png",
+      "description": "Premium gaming cafe in Ashok Vihar Delhi with PS5, Xbox Series X, high-end gaming PCs, and immersive gaming experiences",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ashok Vihar",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110052",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "28.6956",
+        "longitude": "77.1707"
+      },
+      "url": "https://aroplay.in",
+      "telephone": "+919999999999",
+      "priceRange": "₹99-₹999",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "10:00",
+        "closes": "02:00"
+      },
+      "slogan": "Live in your World, Play in ours",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "300"
+      }
+    }
+    </script>
+    
+    <link rel="canonical" href="https://aroplay.in/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --aroplay-cyan: #00d4ff;
+            --aroplay-dark-cyan: #00a8cc;
+            --aroplay-light-cyan: #5ce1ff;
+            --dark-bg: #0a0e1a;
+            --darker: #050812;
+            --card-bg: #131824;
+            --text-primary: #ffffff;
+            --text-secondary: #a0d8f1;
+            --whatsapp: #25D366;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(0, 212, 255, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(0, 168, 204, 0.12) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(92, 225, 255, 0.06) 0%, transparent 50%);
+            animation: bgShift 25s ease infinite;
+        }
+
+        @keyframes bgShift {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(3deg); }
+        }
+
+        /* Floating WhatsApp Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+            animation: pulse 2s infinite;
+        }
+
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--whatsapp);
+            color: white;
+            padding: 16px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            box-shadow: 0 8px 32px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 12px 40px rgba(37, 211, 102, 0.6);
+        }
+
+        .whatsapp-icon {
+            width: 32px;
+            height: 32px;
+            fill: white;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* Header */
+        header {
+            background: rgba(10, 14, 26, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            height: 60px;
+        }
+
+        .logo img {
+            height: 60px;
+            width: auto;
+            max-width: 200px;
+            object-fit: contain;
+            filter: drop-shadow(0 0 15px rgba(0, 212, 255, 0.5));
+            transition: all 0.3s ease;
+        }
+
+        .logo img:hover {
+            transform: scale(1.05);
+            filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.7));
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--aroplay-cyan), var(--aroplay-light-cyan));
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .cta-nav {
+            background: linear-gradient(135deg, var(--aroplay-cyan), var(--aroplay-dark-cyan));
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-weight: 700;
+        }
+
+        .cta-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 212, 255, 0.5);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-family: 'Exo 2', sans-serif;
+            font-size: 72px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #ffffff, var(--aroplay-light-cyan), var(--aroplay-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: textGlow 3s ease-in-out infinite;
+            letter-spacing: 2px;
+        }
+
+        @keyframes textGlow {
+            0%, 100% { filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.5)); }
+            50% { filter: drop-shadow(0 0 25px rgba(0, 212, 255, 0.8)); }
+        }
+
+        .hero .tagline {
+            font-size: 32px;
+            color: var(--aroplay-light-cyan);
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-style: italic;
+            text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+        }
+
+        .hero .location {
+            font-size: 22px;
+            color: var(--text-secondary);
+            margin-bottom: 50px;
+            font-weight: 600;
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            background: var(--whatsapp);
+            color: white;
+            padding: 20px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            box-shadow: 0 10px 40px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            animation: heroCtaPulse 2s infinite;
+        }
+
+        .hero-cta:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 15px 50px rgba(37, 211, 102, 0.6);
+        }
+
+        @keyframes heroCtaPulse {
+            0%, 100% { box-shadow: 0 10px 40px rgba(37, 211, 102, 0.4); }
+            50% { box-shadow: 0 10px 40px rgba(37, 211, 102, 0.7); }
+        }
+
+        /* Features Section */
+        .features {
+            padding: 100px 0;
+            background: linear-gradient(180deg, var(--dark-bg) 0%, var(--darker) 100%);
+        }
+
+        .section-title {
+            font-family: 'Exo 2', sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 70px;
+            background: linear-gradient(135deg, var(--aroplay-cyan), var(--aroplay-light-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-card {
+            background: rgba(19, 24, 36, 0.7);
+            border: 2px solid rgba(0, 212, 255, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.15), rgba(92, 225, 255, 0.15));
+            border-radius: 20px;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: -1;
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 212, 255, 0.25);
+            border-color: rgba(0, 212, 255, 0.5);
+            background: rgba(19, 24, 36, 0.9);
+        }
+
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-family: 'Exo 2', sans-serif;
+            font-size: 26px;
+            margin-bottom: 15px;
+            color: var(--aroplay-cyan);
+        }
+
+        .feature-card p {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            padding: 100px 0;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .price-card {
+            background: linear-gradient(135deg, rgba(19, 24, 36, 0.9), rgba(10, 14, 26, 0.95));
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            border-radius: 25px;
+            padding: 50px 35px;
+            text-align: center;
+            transition: all 0.4s ease;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .price-card.popular {
+            border-color: var(--aroplay-cyan);
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(0, 212, 255, 0.3);
+        }
+
+        .popular-badge {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, var(--aroplay-cyan), var(--aroplay-dark-cyan));
+            padding: 8px 25px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .price-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 50px rgba(0, 212, 255, 0.3);
+            border-color: var(--aroplay-cyan);
+        }
+
+        .price-card h3 {
+            font-family: 'Exo 2', sans-serif;
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: var(--aroplay-light-cyan);
+        }
+
+        .price {
+            font-size: 56px;
+            font-weight: 900;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+        }
+
+        .price-duration {
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+
+        .price-features {
+            list-style: none;
+            margin-bottom: 35px;
+            text-align: left;
+        }
+
+        .price-features li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+            font-size: 17px;
+            color: var(--text-secondary);
+        }
+
+        .price-features li::before {
+            content: '✓';
+            color: var(--aroplay-cyan);
+            font-weight: bold;
+            margin-right: 12px;
+            font-size: 20px;
+        }
+
+        .price-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--aroplay-cyan), var(--aroplay-dark-cyan));
+            color: white;
+            padding: 16px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .price-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 30px rgba(0, 212, 255, 0.5);
+        }
+
+        /* Gallery Section */
+        .gallery {
+            padding: 100px 0;
+            background: var(--darker);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 60px;
+        }
+
+        .gallery-item {
+            aspect-ratio: 16/10;
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            font-size: 18px;
+            color: white;
+            transition: all 0.3s ease;
+            border: 2px solid rgba(0, 212, 255, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .gallery-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+            z-index: 1;
+        }
+        
+        .gallery-item span {
+            position: relative;
+            z-index: 2;
+            padding: 20px;
+            font-weight: 600;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            border-color: var(--aroplay-cyan);
+            box-shadow: 0 15px 50px rgba(0, 212, 255, 0.3);
+        }
+        
+        .gallery-item:hover::before {
+            background: linear-gradient(to top, rgba(0, 212, 255, 0.3) 0%, transparent 60%);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin: 60px 0;
+        }
+
+        .contact-item {
+            background: rgba(19, 24, 36, 0.7);
+            padding: 35px;
+            border-radius: 20px;
+            border: 2px solid rgba(0, 212, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0, 212, 255, 0.5);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+        }
+
+        .contact-item h4 {
+            font-family: 'Exo 2', sans-serif;
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: var(--aroplay-cyan);
+        }
+
+        .contact-item p {
+            font-size: 18px;
+            color: var(--text-secondary);
+        }
+
+        .contact-item a {
+            color: var(--aroplay-light-cyan);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: var(--aroplay-cyan);
+        }
+
+        .final-cta {
+            margin-top: 50px;
+        }
+
+        .final-cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            background: var(--whatsapp);
+            color: white;
+            padding: 25px 60px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 26px;
+            font-weight: 700;
+            box-shadow: 0 12px 50px rgba(37, 211, 102, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .final-cta-btn:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 18px 60px rgba(37, 211, 102, 0.7);
+        }
+
+        /* Map Section */
+        .map-section {
+            padding: 100px 0;
+            background: var(--dark-bg);
+        }
+
+        .map-container {
+            border-radius: 20px;
+            overflow: hidden;
+            border: 3px solid rgba(0, 212, 255, 0.3);
+            box-shadow: 0 20px 60px rgba(0, 212, 255, 0.2);
+            margin-top: 50px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 500px;
+            border: 0;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--darker);
+            padding: 50px 0 30px;
+            text-align: center;
+            border-top: 2px solid rgba(0, 212, 255, 0.3);
+        }
+
+        .footer-content {
+            margin-bottom: 30px;
+        }
+        
+        footer .logo {
+            height: 80px;
+            justify-content: center;
+        }
+        
+        footer .logo img {
+            height: 80px;
+            max-width: 250px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .social-links a {
+            color: var(--text-secondary);
+            font-size: 28px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--aroplay-cyan);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            color: var(--text-secondary);
+            font-size: 16px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 42px;
+            }
+
+            .hero .tagline {
+                font-size: 22px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .section-title {
+                font-size: 36px;
+            }
+
+            .whatsapp-float {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .whatsapp-btn span {
+                display: none;
+            }
+
+            .whatsapp-btn {
+                padding: 16px;
+                border-radius: 50%;
+            }
+
+            .price-card.popular {
+                transform: scale(1);
+            }
+        }
+
+        /* Scroll Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/919999999999?text=Hi!%20I%27d%20like%20to%20book%20a%20gaming%20session%20at%20Aroplay" class="whatsapp-btn" target="_blank">
+            <svg class="whatsapp-icon" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+            <span>Book Now</span>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/aroplay-logo.png" alt="Aroplay Gaming Cafe - Live in your World, Play in ours">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://wa.me/919999999999?text=Hi!%20I%27d%20like%20to%20book%20a%20gaming%20session" class="cta-nav" target="_blank">Book on WhatsApp</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container fade-in">
+            <h1>AROPLAY</h1>
+            <p class="tagline">"Live in your World, Play in ours"</p>
+            <p class="location">📍 Ashok Vihar, Delhi - North Delhi's Gaming Paradise</p>
+            <a href="https://wa.me/919999999999?text=Hi!%20I%27d%20like%20to%20book%20a%20gaming%20session%20at%20Aroplay" class="hero-cta" target="_blank">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Book Your Gaming Session
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Aroplay?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Next-Gen Gaming Rigs</h3>
+                    <p>Experience gaming on cutting-edge PCs with RTX 4090 GPUs and Intel i9 processors. Every game runs at ultra settings with ray tracing enabled.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🖥️</div>
+                    <h3>Latest Consoles</h3>
+                    <p>Play on PS5, Xbox Series X, and Nintendo Switch. Massive game library with all the latest AAA titles and exclusive releases.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🪑</div>
+                    <h3>Premium Comfort</h3>
+                    <p>Game in ultimate comfort with DXRacer gaming chairs and height-adjustable desks. Designed for extended gaming marathons.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Ultra-Fast Internet</h3>
+                    <p>1 Gbps dedicated fiber connection with near-zero latency. Perfect for competitive gaming and smooth multiplayer experiences.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎧</div>
+                    <h3>Immersive Audio</h3>
+                    <p>Professional-grade gaming headsets with 7.1 surround sound. Crystal clear communication and immersive game audio.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">❄️</div>
+                    <h3>Climate Controlled</h3>
+                    <p>Fully air-conditioned gaming arena with RGB ambient lighting. Perfect temperature maintained 24/7 for maximum comfort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Our Gaming Packages</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Quick Play</h3>
+                    <div class="price">₹99</div>
+                    <div class="price-duration">Per Hour</div>
+                    <ul class="price-features">
+                        <li>PC or Console Access</li>
+                        <li>High-Speed Internet</li>
+                        <li>Gaming Headset</li>
+                        <li>Comfortable Gaming Chair</li>
+                    </ul>
+                    <a href="https://wa.me/919999999999?text=I%27d%20like%20to%20book%20Quick%20Play%20at%20Aroplay" class="price-btn" target="_blank">Book Now</a>
+                </div>
+                <div class="price-card popular">
+                    <div class="popular-badge">BEST VALUE</div>
+                    <h3>Extended Session</h3>
+                    <div class="price">₹499</div>
+                    <div class="price-duration">5 Hours</div>
+                    <ul class="price-features">
+                        <li>All Quick Play Benefits</li>
+                        <li>Premium Gaming Station</li>
+                        <li>Snacks & Beverages</li>
+                        <li>Priority Support</li>
+                        <li>Save 15% vs Hourly</li>
+                    </ul>
+                    <a href="https://wa.me/919999999999?text=I%27d%20like%20to%20book%20Extended%20Session%20at%20Aroplay" class="price-btn" target="_blank">Book Now</a>
+                </div>
+                <div class="price-card">
+                    <h3>Night Owl</h3>
+                    <div class="price">₹1099</div>
+                    <div class="price-duration">12 Hours</div>
+                    <ul class="price-features">
+                        <li>All Extended Benefits</li>
+                        <li>Private Gaming Pod</li>
+                        <li>Unlimited Refreshments</li>
+                        <li>VIP Treatment</li>
+                        <li>Save 20% vs Hourly</li>
+                    </ul>
+                    <a href="https://wa.me/919999999999?text=I%27d%20like%20to%20book%20Night%20Owl%20package%20at%20Aroplay" class="price-btn" target="_blank">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gaming Arena</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&q=80');">
+                    <span>Cutting-Edge Gaming Stations</span>
+                </div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1616588589676-62b3bd4ff6d2?w=800&q=80');">
+                    <span>RGB Gaming Paradise</span>
+                </div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1591405351990-4726e331f141?w=800&q=80');">
+                    <span>Console Gaming Zone</span>
+                </div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=800&q=80');">
+                    <span>Pro Esports Setup</span>
+                </div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=800&q=80');">
+                    <span>Premium Gaming Lounge</span>
+                </div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&q=80');">
+                    <span>VIP Gaming Pods</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p style="font-size: 22px; color: var(--text-secondary); margin-bottom: 40px;">
+                    Ready to dive into the ultimate gaming experience? Reach out and book your session today!
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>📍 Location</h4>
+                        <p>Ashok Vihar Phase 3<br>Delhi 110052</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>📞 Phone</h4>
+                        <p><a href="tel:+919999999999">+91 99999 99999</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>⏰ Hours</h4>
+                        <p>Mon-Sun: 10 AM - 2 AM<br>365 Days Open</p>
+                    </div>
+                </div>
+                <div class="final-cta">
+                    <a href="https://wa.me/919999999999?text=Hi%20Aroplay!%20I%27d%20like%20to%20know%20more%20about%20your%20gaming%20packages" class="final-cta-btn" target="_blank">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="white">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                        </svg>
+                        Chat with Us on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps Section -->
+    <section id="map" class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <p style="text-align: center; font-size: 22px; color: var(--text-secondary); margin-bottom: 30px;">
+                Located in Ashok Vihar, North Delhi - Easy to reach, impossible to leave!
+            </p>
+            <div class="map-container">
+                <!-- Replace with your actual location -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.3866947677234!2d77.16855931508285!3d28.69561258241016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0373e04e07c7%3A0x3b0b8b3b0b8b3b0b!2sAshok%20Vihar%20Phase%203%2C%20Ashok%20Vihar%2C%20Delhi!5e0!3m2!1sen!2sin!4v1645000000000!5m2!1sen!2sin" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo" style="margin-bottom: 20px;">
+                    <img src="images/aroplay-logo.png" alt="Aroplay Gaming Cafe">
+                </div>
+                <p style="color: var(--text-secondary); font-size: 18px; margin-bottom: 30px;">
+                    Live in your World, Play in ours
+                </p>
+                <div class="social-links">
+                    <a href="#" title="Instagram">📷</a>
+                    <a href="#" title="Facebook">📘</a>
+                    <a href="#" title="Twitter">🐦</a>
+                    <a href="#" title="Discord">💬</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Aroplay Gaming Cafe. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.feature-card, .price-card, .gallery-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
